@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BIRA-Project-Management</name>
+    </assembly>
+    <members>
+        <member name="M:BIRA_Project_Management.Controllers.IssueController.GetIssues">
+            <summary>
+            Reads from issue table
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.IssueController.GetIssueWithId(System.Int32)">
+            <summary>
+            Finds issue with Id
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.IssueController.RemoveIssue(System.Int32)">
+            <summary>
+            Deletes issue with Id
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.IssueController.AddIssue(BIRA_Project_Management.Models.Issue)">
+            <summary>
+            Posts an issue
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.IssueController.UpdateIssue(BIRA_Project_Management.Models.Issue)">
+            <summary>
+            Updates an issue
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.IssueController.updateStatus(System.Int32)">
+            <summary>
+            Updates status of an issue
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.IssueController.updateAsignee(System.Int32)">
+            <summary>
+            Updates asignee of an issue
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.IssueController.GetByTitleAndDescription(System.String,System.String)">
+            <summary>
+            Reads from Issue Table
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.GetProjects">
+            <summary>
+            Reads from Project Table
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.AddProject(BIRA_Project_Management.Models.Project)">
+            <summary>
+            Posts into Project Table
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.UpdateProject(BIRA_Project_Management.Models.Project)">
+            <summary>
+            Updates a Project
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.GetProjectWithId(System.Int32)">
+            <summary>
+            Finds a project with Id
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.RemoveProject(System.Int32)">
+            <summary>
+            Deletes a project with Id
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.GetIssuesByProjectId(System.Int32)">
+            <summary>
+            Get issues under project
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.AddIssueUnderProject(System.Int32,BIRA_Project_Management.Models.Issue)">
+            <summary>
+            Adds issue under project
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.UpdateIssueUnderProject(System.Int32,BIRA_Project_Management.Models.Issue)">
+            <summary>
+            Updates issue under project
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.GetIssueWithIdUnderProject(System.Int32,System.Int32)">
+            <summary>
+            Gets issue with Id under project
+            </summary>
+        </member>
+        <member name="M:BIRA_Project_Management.Controllers.ProjectController.DeleteIssueUnderProject(System.Int32,System.Int32)">
+            <summary>
+            Deletes an issue under project
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueService.Delete(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueService.GetAll" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueService.GetOne(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueService.Save(BIRA_Project_Management.Models.Issue)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueService.SearchByTitleAndDesc(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueService.Update(BIRA_Project_Management.Models.Issue)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueService.UpdateAssignee(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueService.UpdateStatus(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueUnderProjectService.Delete(System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueUnderProjectService.GetAll(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueUnderProjectService.GetOne(System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueUnderProjectService.Save(System.Int32,BIRA_Project_Management.Models.Issue)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.IssueUnderProjectService.Update(System.Int32,BIRA_Project_Management.Models.Issue)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.ProjectService.Save(BIRA_Project_Management.Models.Project)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.ProjectService.Update(BIRA_Project_Management.Models.Project)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.ProjectService.BIRA_Project_Management#Service#DataBase#Interface#IRepositoryService{BIRA_Project_Management#Models#Project}#Delete(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.ProjectService.BIRA_Project_Management#Service#DataBase#Interface#IRepositoryService{BIRA_Project_Management#Models#Project}#GetAll" -->
+        <!-- Badly formed XML comment ignored for member "M:BIRA_Project_Management.Service.DataBase.Implementation.ProjectService.BIRA_Project_Management#Service#DataBase#Interface#IRepositoryService{BIRA_Project_Management#Models#Project}#GetOne(System.Int32)" -->
+    </members>
+</doc>
